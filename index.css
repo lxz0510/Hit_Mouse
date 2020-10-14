@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #666;  
+}
+.wrap{
+    width: 800px;
+    margin:30px auto;
+}
+.header{
+    width: 800px;
+    height: 50px;
+    position: relative;
+}
+button{
+    width: 100px;
+    height: 40px;
+    float: left;
+    background-color: rgba(92, 245, 87, 0.5);
+    color: white;
+    border: 1px solid green;
+    border-radius:8px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+p{
+    float: right;
+    color: white;
+    font-size: large;
+    line-height: 38px;
+    margin-right: 5px;
+}
+.header .bar{
+    width: 300px;
+    height: 38px;
+    border: 2px solid green; 
+    float: right;
+}
+.back{
+    width: 300px;
+    height: 38px;
+    background-color: yellow;
+}
+.board{
+    background-image: url(images/back.jpg);
+    width: 800px;
+    height: 480px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    opacity: 0;
+}
